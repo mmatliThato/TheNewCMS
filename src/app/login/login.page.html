@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!-- <form [FormGroup]="formgroup">
+<ion-list>
+<ion-item>
+  <ion-label>Email</ion-label>
+  <ion-input type="text" formControlName="Email"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label>Password</ion-label>
+  <ion-input type="password" formControlName="Password"></ion-input>
+</ion-item>
+</ion-list>
+<button clear ion-button>Login</button>
+</form> -->
+<div class="container">
+
+  <div class="one">
+    <div class="one1"></div>
+    <div class="one2">
+        <img src='../../assets/icon/hotel.jpg' alt="" class="image">
+        <div class="inputs">
+          <h5>Please enter your email and password to login.</h5><br />
+          <ion-input type="text" placeholder="Email" ></ion-input>
+          <ion-input type="password" placeholder="Password" class="input1" ></ion-input>
+        </div>
+        <button class="Btn" (click)="login()">Login</button>
+   
+    </div>
+  </div>
+</div>
+</ion-content>
